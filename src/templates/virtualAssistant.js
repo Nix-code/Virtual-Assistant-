@@ -91,7 +91,39 @@ function speakThis(message){
         const finalAns = date;
         speech.text = finalAns;
     }
-    //slaus he ujk
+    else if(message.includes("your name") || message.includes("who are you")){
+        const finalAns = "I am Jarvis";
+        speech.text = finalAns;
+    }
+    else if(message.includes("my name")){
+        const finalAns = "Your name is Nishant";
+        speech.text = finalAns;
+    }
+    else if (message.includes('open google')) {
+        window.open(`http://google.com`, "_blank");
+        const finalAns = 'opening google';
+        speech.text = finalAns;
+    }
+
+    else if (message.includes('open instagram')) {
+        window.open(`http://instagram.com`, "_blank");
+        const finalAns = 'opening instagram';
+        speech.text = finalAns;
+    }
+
+    else if (message.includes('open youtube')) {
+        window.open(`http://youtube.com`, "_blank");
+        const finalAns = 'opening youtube';
+        speech.text = finalAns;
+    }
+    else if (message.includes('open facebook')) {
+        window.open(`http://facebook.com`, "_blank");
+        const finalAns = 'opening facebook';
+        speech.text = finalAns;
+    }
+    
+
+    
     speech.volume = 1;
     speech.rate = 1;
     speech.pitch = 1;
