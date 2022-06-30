@@ -21,9 +21,9 @@ const recognition = new SpeechRecognition();
 
 window.addEventListener("load",function() {
    
-    // speak('Activating Virtual Assistant');
-    // speak('Here we go');
-    // wishMe();
+    speak('Activating Virtual Assistant');
+    speak('Here we go');
+    wishMe();
 });
 // speak function
 
@@ -91,6 +91,7 @@ function speakThis(message){
         const finalAns = date;
         speech.text = finalAns;
     }
+    //slaus he ujk
     speech.volume = 1;
     speech.rate = 1;
     speech.pitch = 1;

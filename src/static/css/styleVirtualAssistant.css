@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    /* 1rem = 10px */
+    /* 1rem = 16px perviously */
+    box-sizing: border-box;
+
+}
+/* body section */
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(8, 8, 8);
+}
+
+.display img{
+    width: 50%;
+    height: auto;
+    margin-left:24%;
+    margin-bottom: 20px;
+}
+h1{
+    color: #018394;
+    font-size: 3.9rem;
+}
+p{
+    color: rgb(106, 108, 105);
+    font-size: 1.5rem;
+    margin-top: 10px;
+    
+}
+
+h3{
+    color: rgb(176, 176, 176);
+    font-size: 1.7rem;
+}
+
+.container{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.microphone{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 50px;
+    border-radius: 18px;
+    background-color: rgba(2, 89, 113, 0.5);
+}
+
+.microphone .SpeakToMe{
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(139, 141, 139);
+}
