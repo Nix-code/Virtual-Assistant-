@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Virtual Assistant</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-   <link rel="stylesheet" href="/src/static/css/styleVirtualAssistant.css">
+   <link rel="stylesheet" href="{{url_for('static',filename='css/styleVirtualAssistant.css')}}">
 
 </head>
 <body>
     <div class="container">
         <div class="display">
-            <img src="/src/static/img/sound.gif" alt="initial_display">
+            <img src="{{url_for('static',filename='img/sound.gif')}}" alt="initial_display">
         </div>
         <h1>J A R V I S </h1>
         <p>I am Jarvis ! How may I assist you?</p>
